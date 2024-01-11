@@ -14,7 +14,6 @@ for (let i = 1; i <= 100; i++) {
   console.log(mex);
   container.innerHTML += `
   <div class="card ${mex}">
-  <div class="box">
-${mex}</box>
+    <div class="box">${mex}</div>
   </div>`;
 }
